@@ -14,4 +14,4 @@ The 'editor' property must match the editor which has just been made active:
   * Sometimes this fails after reloading a window or in similar circumstances
   * The preview tabs persist, but this link back to the source editor is no longer valid (a limitation of Atom)
 
-![Screencap in action](https://github.com/Bug-Spray/atom-markdown-auto-preview/blob/master/atom-markdown-auto-preview.gif)
+![Screencap in action](https://cloud.githubusercontent.com/assets/10861177/20911665/ad3c5d84-bbbd-11e6-97c5-6a0270c310ef.gif)
