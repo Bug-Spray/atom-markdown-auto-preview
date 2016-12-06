@@ -1,7 +1,7 @@
 {
   "name": "atom-markdown-auto-preview",
   "main": "./lib/atom-markdown-auto-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically makes the preview tab visible, when a Markdown file's text editor is activated. (The preview needs to be already opened, and in a different pane.)",
   "keywords": [
     "markdown",
