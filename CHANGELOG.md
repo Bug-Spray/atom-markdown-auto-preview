@@ -1,3 +1,7 @@
+# 1.1.1 - Moved repo (15 Dec 2016)
+## Fixes
+* Moved repo to different account on GitHub
+
 # 1.1.0 - Features rounding-out (14 Dec 2016)
 ## Features
 * Can automatically open the previewer on file open
