@@ -9,11 +9,12 @@ Works a treat with `markdown-scroll-sync`!
 
 ## Features
 
-* When switching to a Markdown file, makes the first corresponding preview active (visible)
+* When switching to a Markdown file, makes the corresponding preview active (visible)
   * If it has already been opened
   * Is in a different pane/group to the source file
 
-* When closing a Markdown file, closes any corresponding previews
+* When opening a Markdown file, opens the preview pane (optional)
+* When closing a Markdown file, closes the corresponding preview (optional)
 
 ## Fiddly bits
 
@@ -22,8 +23,4 @@ The module works on the following logic:
   * If the previewer is in a different pane, then
   * Make the previewer visible
 
-The module scans all open tabs for ones which have an 'editor' property, to identify preview-type tabs
-
-The 'editor' property must match the editor which has just been made active:
-  * Sometimes this fails after reloading a window or in similar circumstances
-  * The preview tabs persist, but this link back to the source editor is no longer valid (a limitation of Atom)
+The module uses the same logic as the `Markdown Preview: Toggle` command to determine the counterpart preview tab for a Markdown editor
